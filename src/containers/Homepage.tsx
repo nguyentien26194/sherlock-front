@@ -65,7 +65,7 @@ export default function Homepage({ navigation = 0 }: Props) {
       case UPSELL_NAVIGATION:
         return <Upsell />;
       default:
-        return <></>;
+        return <Dashboard />;
     }
   }
 
